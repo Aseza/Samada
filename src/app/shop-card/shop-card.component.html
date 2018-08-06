@@ -1,0 +1,14 @@
+
+      <div class="col s12 m4 l3" *ngIf="!liked">
+        <div class="card">
+          <div class="card-image">
+            <img src="https://cdn.colorlib.com/unite/wp-content/uploads/sites/7/2013/03/image-alignment-150x150-60x60.jpg">
+            <span class="card-title">Card Title <span class="red-text" *ngIf="liked">(heart)</span></span>
+            <a class="btn-floating halfway-fab waves-effect waves-light blue" (click)="addToFavourite()"><i class="material-icons">add</i></a>
+            <a class="btn-floating halfway-fab left waves-effect waves-light red"><i class="material-icons">remove</i></a>
+          </div>
+          <div class="card-content">
+            <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+          </div>
+        </div>
+      </div>

@@ -1,0 +1,13 @@
+<app-navbar></app-navbar>
+<br/>
+
+<div class="container">
+
+    <div class="row" >
+            <app-shop-card *ngFor="let shop of [0,2,3,4,5,0,0,0]"></app-shop-card>
+    </div>
+  <button class="right waves-effect blue darken-4 btn-large light waves-light" (click)="showAllShops()">Show All Shops
+    <i class="material-icons right">send</i>
+  </button>
+  </div>
+  <app-footer></app-footer>
